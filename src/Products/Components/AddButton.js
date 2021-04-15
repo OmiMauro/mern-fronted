@@ -1,12 +1,12 @@
 import React from 'react'
-import Bulma, { Section, Container, Button } from 'react-bulma-components'
+import { Section, Container, Button } from 'react-bulma-components'
 
-const AddButton = () => {
+const AddButton = ({ onClick }) => {
   return (
     <Section>
       <Container>
         <div className='is-pulled-right'>
-          <Button class='is-primary'>Agregar</Button>
+          <Button onClick={onClick} className='is-primary'>Agregar</Button>
         </div>
       </Container>
     </Section>

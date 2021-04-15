@@ -1,6 +1,6 @@
 import React from 'react'
-import Bulma from 'react-bulma-components'
-import ReactDOM from 'react-dom'
+/* import Bulma from 'react-bulma-components'
+ */import ReactDOM from 'react-dom'
 import ProductLayout from './Products/Components/ProductLayout'
 import reportWebVitals from './reportWebVitals'
 
